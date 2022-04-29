@@ -65,7 +65,7 @@ vlist = [    "ALIVE_PIC",    "ALIVE_EMOJI",    "ALIVE_TELETHONIQ",    "ALIVE_TEX
 DELETE_TIMEOUT = 5
 thumb_image_path = os.path.join(Config.TMP_DOWNLOAD_DIRECTORY, "thumb_image.jpg")
 oldvars = {    "PM_PIC": "pmpermit_pic",    "PM_TEXT": "pmpermit_txt",    "PM_BLOCK": "pmblock",}
-IQPIC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/861247f44046d3a1f3118.jpg"
+IQPIC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/db9db8f02c6131eb36b0b.jpg"
 def convert_from_bytes(size):
     power = 2 ** 10
     n = 0
@@ -85,7 +85,7 @@ async def iq(iqthonevent):
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "☭︙"
     ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "𝗐𝖾𝗅𝖼𝗈𝗆𝖾  𓃠"
-    IQTHON_IMG = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/861247f44046d3a1f3118.jpg"
+    IQTHON_IMG = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/db9db8f02c6131eb36b0b.jpg"
     tg_bot = Config.TG_BOT_USERNAME
     me = await iqthonevent.client.get_me()
     my_last = me.last_name
