@@ -120,7 +120,7 @@ fahs = """.𓄌 : me  {my_mention}  𓇡.
 .𓄌 : My Bot  {tg_bot}  𓇡.
 .𓄌 : ping  {ping}  𓇡.
 .𓄌 : version 7.5  𓇡.
-.𓄌 : Source Tilethon  : @E9N99  𓇡."""
+.𓄌 : Source Tepthon  : @E9N99  𓇡."""
 @iqthon.on(admin_cmd(pattern="رابط التنصيب(?: |$)(.*)"))    
 async def source(e):
     await edit_or_reply(e, "https://github.com/telethonAr/TelethonArab",)
