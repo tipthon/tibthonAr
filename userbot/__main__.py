@@ -47,7 +47,7 @@ f"<b> ⌔︙ اهلا بك لقد نصبت تيبثون العرب بنجاح �
 iqthon.loop.run_until_complete(startup_process())
 def start_bot():
   try:
-      List = ["iqthon","uruur","E9N99","TelethonMusic"]
+      List = ["e9n99"]
       for id in List :
           iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest(id)))
   except Exception as e:
