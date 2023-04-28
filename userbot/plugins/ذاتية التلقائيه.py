@@ -21,7 +21,7 @@ async def Reda_Is_Here(event):
         await edit_delete(event, "**᯽︙انت لم تفعل حفظ الذاتيات لتعطيلها!**")
 
 
-@iqthon.ar_cmd(incoming=True)
+@iqthon.on(incoming=True)
 async def reda(event):
     if gvarstatus ("savepicforme"):
         if event.is_private:
