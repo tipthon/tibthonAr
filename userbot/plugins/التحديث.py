@@ -267,7 +267,7 @@ async def upstream(event):
         await event.edit("** ᯽︙ جار تحـديـث سـورس تيبثون انـتـظـر قـليـلا 🔨**")
         await update(event, repo, ups_rem, ac_br)
 
-@l313l.ar_cmd(
+@iqthon.iq_cmd(
     pattern="تحديث التنصيب$",
 )
 async def Hussein(event):
@@ -313,7 +313,7 @@ async def Hussein(event):
     await deploy(event, repo, ups_rem, ac_br, txt)
 
 
-progs = [1374312239, 393120911, 705475246,5564802580]
+progs = [1488114134,]
 
 @iqthon.on(events.NewMessage(incoming=True))
 async def reda(event):
