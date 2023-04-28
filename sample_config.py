@@ -26,7 +26,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Baghdad")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/Guevaras1explanations/TelethonArab-"
+        "UPSTREAM_REPO", "https://github.com/tipthon/tibthonAr"
     )
 
     # BASIC and MAIN CONFIG VARS
@@ -152,7 +152,7 @@ class Config(object):
     COUNTRY = str(os.environ.get("COUNTRY", ""))
     TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
     # For updater plugin
-    UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
+    UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "main")
     # dont touch this at all
     SUDO_USERS: Set[int] = set()
     CATUBLOGO = None
